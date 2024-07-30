@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86438E212507E733001931E4 /* DetailWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86438E202507E733001931E4 /* DetailWebController.swift */; };
+		86438E232507F464001931E4 /* DetailWifiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86438E222507F464001931E4 /* DetailWifiController.swift */; };
+		86438E252507F6AE001931E4 /* DetailTextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86438E242507F6AE001931E4 /* DetailTextController.swift */; };
+		86438E272507F7B5001931E4 /* DetailBarcodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86438E262507F7B5001931E4 /* DetailBarcodeController.swift */; };
+		868A45C92506BBB8009651FC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A45C82506BBB8009651FC /* Extension.swift */; };
+		869EAB56252BA5DB00D658D6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869EAB55252BA5DB00D658D6 /* StoreKit.framework */; };
+		86A3AE3B2645BFA900C10056 /* PrivacyTermsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3AE3A2645BFA900C10056 /* PrivacyTermsController.swift */; };
+		86D4DCF52500ECDB001C7E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DCF42500ECDB001C7E76 /* AppDelegate.swift */; };
+		86D4DCF72500ECDB001C7E76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DCF62500ECDB001C7E76 /* SceneDelegate.swift */; };
+		86D4DCFE2500ECE0001C7E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D4DCFD2500ECE0001C7E76 /* Assets.xcassets */; };
+		86D4DD012500ECE0001C7E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86D4DCFF2500ECE0001C7E76 /* LaunchScreen.storyboard */; };
+		86D4DD092500EFC4001C7E76 /* PreviewPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD082500EFC4001C7E76 /* PreviewPageController.swift */; };
+		86D4DD102500F064001C7E76 /* Extension_Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD0B2500F064001C7E76 /* Extension_Font.swift */; };
+		86D4DD112500F064001C7E76 /* Extension_ConstraintUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD0C2500F064001C7E76 /* Extension_ConstraintUI.swift */; };
+		86D4DD132500F064001C7E76 /* Extension_UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD0E2500F064001C7E76 /* Extension_UIAlert.swift */; };
+		86D4DD142500F064001C7E76 /* Extension_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD0F2500F064001C7E76 /* Extension_Color.swift */; };
+		86D4DD192500F440001C7E76 /* PreviewPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD182500F440001C7E76 /* PreviewPageCell.swift */; };
+		86D4DD1F2500FC56001C7E76 /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86D4DD1D2500FC56001C7E76 /* NunitoSans-Black.ttf */; };
+		86D4DD202500FC56001C7E76 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86D4DD1E2500FC56001C7E76 /* NunitoSans-Regular.ttf */; };
+		86D4DD222500FF50001C7E76 /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86D4DD212500FF50001C7E76 /* NunitoSans-ExtraBold.ttf */; };
+		86D4DD262504C97C001C7E76 /* TabbarMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD252504C97C001C7E76 /* TabbarMainController.swift */; };
+		86D4DD282504CAD3001C7E76 /* ScannerPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD272504CAD3001C7E76 /* ScannerPageController.swift */; };
+		86D4DD2A2504CB1E001C7E76 /* CreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD292504CB1E001C7E76 /* CreateController.swift */; };
+		86D4DD2E2504CB72001C7E76 /* UpgradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD2D2504CB72001C7E76 /* UpgradeController.swift */; };
+		86D4DD302504D2AB001C7E76 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86D4DD2F2504D2AB001C7E76 /* NunitoSans-Bold.ttf */; };
+		86D4DD322504E2CF001C7E76 /* PresentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD312504E2CF001C7E76 /* PresentPage.swift */; };
+		86D4DD3525050FC2001C7E76 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD3425050FC2001C7E76 /* HistoryCell.swift */; };
+		86D4DD3725051027001C7E76 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD3625051027001C7E76 /* HistoryController.swift */; };
+		86D4DD3A25065820001C7E76 /* CreateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD3925065820001C7E76 /* CreateCell.swift */; };
+		86D4DD3C25065FD7001C7E76 /* CreateWebSiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD3B25065FD7001C7E76 /* CreateWebSiteController.swift */; };
+		86D4DD3E25066933001C7E76 /* CreateWiFiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD3D25066933001C7E76 /* CreateWiFiController.swift */; };
+		86D4DD4025066943001C7E76 /* CreateTextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DD3F25066943001C7E76 /* CreateTextController.swift */; };
+		86F52287250F6A7E005E8B31 /* SQLiteFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F52286250F6A7E005E8B31 /* SQLiteFunction.swift */; };
+		86F522892517E0A8005E8B31 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F522882517E0A6005E8B31 /* Class.swift */; };
+		86F5228C2519DA44005E8B31 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F5228B2519DA44005E8B31 /* DataSource.swift */; };
+		86F5228E251CA6C4005E8B31 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F5228D251CA6C4005E8B31 /* test.swift */; };
+		A2545FC7AAF5A09B4F58A10D /* Pods_QR_Code_Reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F2E21B258F75D6E2092BB9 /* Pods_QR_Code_Reader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13F2E21B258F75D6E2092BB9 /* Pods_QR_Code_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_Code_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86438E202507E733001931E4 /* DetailWebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWebController.swift; sourceTree = "<group>"; };
+		86438E222507F464001931E4 /* DetailWifiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWifiController.swift; sourceTree = "<group>"; };
+		86438E242507F6AE001931E4 /* DetailTextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTextController.swift; sourceTree = "<group>"; };
+		86438E262507F7B5001931E4 /* DetailBarcodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBarcodeController.swift; sourceTree = "<group>"; };
+		868A45C82506BBB8009651FC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		869EAB55252BA5DB00D658D6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		86A3AE3A2645BFA900C10056 /* PrivacyTermsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyTermsController.swift; sourceTree = "<group>"; };
+		86D4DCF12500ECDB001C7E76 /* QR Code Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Code Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D4DCF42500ECDB001C7E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86D4DCF62500ECDB001C7E76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86D4DCFD2500ECE0001C7E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86D4DD002500ECE0001C7E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86D4DD022500ECE0001C7E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86D4DD082500EFC4001C7E76 /* PreviewPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPageController.swift; sourceTree = "<group>"; };
+		86D4DD0B2500F064001C7E76 /* Extension_Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_Font.swift; sourceTree = "<group>"; };
+		86D4DD0C2500F064001C7E76 /* Extension_ConstraintUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_ConstraintUI.swift; sourceTree = "<group>"; };
+		86D4DD0E2500F064001C7E76 /* Extension_UIAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_UIAlert.swift; sourceTree = "<group>"; };
+		86D4DD0F2500F064001C7E76 /* Extension_Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_Color.swift; sourceTree = "<group>"; };
+		86D4DD182500F440001C7E76 /* PreviewPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPageCell.swift; sourceTree = "<group>"; };
+		86D4DD1D2500FC56001C7E76 /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		86D4DD1E2500FC56001C7E76 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		86D4DD212500FF50001C7E76 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		86D4DD252504C97C001C7E76 /* TabbarMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarMainController.swift; sourceTree = "<group>"; };
+		86D4DD272504CAD3001C7E76 /* ScannerPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerPageController.swift; sourceTree = "<group>"; };
+		86D4DD292504CB1E001C7E76 /* CreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateController.swift; sourceTree = "<group>"; };
+		86D4DD2D2504CB72001C7E76 /* UpgradeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeController.swift; sourceTree = "<group>"; };
+		86D4DD2F2504D2AB001C7E76 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		86D4DD312504E2CF001C7E76 /* PresentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentPage.swift; sourceTree = "<group>"; };
+		86D4DD3425050FC2001C7E76 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		86D4DD3625051027001C7E76 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		86D4DD3925065820001C7E76 /* CreateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCell.swift; sourceTree = "<group>"; };
+		86D4DD3B25065FD7001C7E76 /* CreateWebSiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWebSiteController.swift; sourceTree = "<group>"; };
+		86D4DD3D25066933001C7E76 /* CreateWiFiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWiFiController.swift; sourceTree = "<group>"; };
+		86D4DD3F25066943001C7E76 /* CreateTextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTextController.swift; sourceTree = "<group>"; };
+		86F52286250F6A7E005E8B31 /* SQLiteFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteFunction.swift; sourceTree = "<group>"; };
+		86F522882517E0A6005E8B31 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		86F5228B2519DA44005E8B31 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		86F5228D251CA6C4005E8B31 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		E5F204BBA152DE5355347A6C /* Pods-QR Code Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Code Reader.debug.xcconfig"; path = "Target Support Files/Pods-QR Code Reader/Pods-QR Code Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE5967162422AAEDC43769C /* Pods-QR Code Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Code Reader.release.xcconfig"; path = "Target Support Files/Pods-QR Code Reader/Pods-QR Code Reader.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86D4DCEE2500ECDB001C7E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2545FC7AAF5A09B4F58A10D /* Pods_QR_Code_Reader.framework in Frameworks */,
+				869EAB56252BA5DB00D658D6 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6A271783F75100737F9D88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				869EAB55252BA5DB00D658D6 /* StoreKit.framework */,
+				13F2E21B258F75D6E2092BB9 /* Pods_QR_Code_Reader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13ADB0713E692E4187281E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F204BBA152DE5355347A6C /* Pods-QR Code Reader.debug.xcconfig */,
+				FAE5967162422AAEDC43769C /* Pods-QR Code Reader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86438E1F2507E717001931E4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				86438E202507E733001931E4 /* DetailWebController.swift */,
+				86438E222507F464001931E4 /* DetailWifiController.swift */,
+				86438E242507F6AE001931E4 /* DetailTextController.swift */,
+				86438E262507F7B5001931E4 /* DetailBarcodeController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		86D4DCE82500ECDA001C7E76 = {
+			isa = PBXGroup;
+			children = (
+				86D4DD152500F093001C7E76 /* Font */,
+				86D4DCF32500ECDB001C7E76 /* QR Code Reader */,
+				86D4DCF22500ECDB001C7E76 /* Products */,
+				13ADB0713E692E4187281E02 /* Pods */,
+				0B6A271783F75100737F9D88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86D4DCF22500ECDB001C7E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86D4DCF12500ECDB001C7E76 /* QR Code Reader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86D4DCF32500ECDB001C7E76 /* QR Code Reader */ = {
+			isa = PBXGroup;
+			children = (
+				86D4DCF42500ECDB001C7E76 /* AppDelegate.swift */,
+				86D4DCF62500ECDB001C7E76 /* SceneDelegate.swift */,
+				86F5228A2519DA2C005E8B31 /* DataSource */,
+				86D4DD0A2500F064001C7E76 /* Extension */,
+				86F52285250F6A21005E8B31 /* SQLite */,
+				86D4DD312504E2CF001C7E76 /* PresentPage.swift */,
+				86D4DD1A2500F452001C7E76 /* PreviewPage */,
+				86D4DD252504C97C001C7E76 /* TabbarMainController.swift */,
+				86A3AE3A2645BFA900C10056 /* PrivacyTermsController.swift */,
+				86D4DD272504CAD3001C7E76 /* ScannerPageController.swift */,
+				86D4DD38250657F1001C7E76 /* Create */,
+				86438E1F2507E717001931E4 /* Detail */,
+				86D4DD3325050F8D001C7E76 /* History */,
+				86D4DD2D2504CB72001C7E76 /* UpgradeController.swift */,
+				86F5228D251CA6C4005E8B31 /* test.swift */,
+				86D4DCFD2500ECE0001C7E76 /* Assets.xcassets */,
+				86D4DCFF2500ECE0001C7E76 /* LaunchScreen.storyboard */,
+				86D4DD022500ECE0001C7E76 /* Info.plist */,
+			);
+			path = "QR Code Reader";
+			sourceTree = "<group>";
+		};
+		86D4DD0A2500F064001C7E76 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86D4DD0B2500F064001C7E76 /* Extension_Font.swift */,
+				86D4DD0C2500F064001C7E76 /* Extension_ConstraintUI.swift */,
+				86D4DD0E2500F064001C7E76 /* Extension_UIAlert.swift */,
+				86D4DD0F2500F064001C7E76 /* Extension_Color.swift */,
+				868A45C82506BBB8009651FC /* Extension.swift */,
+				86F522882517E0A6005E8B31 /* Class.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		86D4DD152500F093001C7E76 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				86D4DD1D2500FC56001C7E76 /* NunitoSans-Black.ttf */,
+				86D4DD1E2500FC56001C7E76 /* NunitoSans-Regular.ttf */,
+				86D4DD212500FF50001C7E76 /* NunitoSans-ExtraBold.ttf */,
+				86D4DD2F2504D2AB001C7E76 /* NunitoSans-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		86D4DD1A2500F452001C7E76 /* PreviewPage */ = {
+			isa = PBXGroup;
+			children = (
+				86D4DD082500EFC4001C7E76 /* PreviewPageController.swift */,
+				86D4DD182500F440001C7E76 /* PreviewPageCell.swift */,
+			);
+			path = PreviewPage;
+			sourceTree = "<group>";
+		};
+		86D4DD3325050F8D001C7E76 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				86D4DD3625051027001C7E76 /* HistoryController.swift */,
+				86D4DD3425050FC2001C7E76 /* HistoryCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		86D4DD38250657F1001C7E76 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				86D4DD292504CB1E001C7E76 /* CreateController.swift */,
+				86D4DD3925065820001C7E76 /* CreateCell.swift */,
+				86D4DD3B25065FD7001C7E76 /* CreateWebSiteController.swift */,
+				86D4DD3D25066933001C7E76 /* CreateWiFiController.swift */,
+				86D4DD3F25066943001C7E76 /* CreateTextController.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		86F52285250F6A21005E8B31 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				86F52286250F6A7E005E8B31 /* SQLiteFunction.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		86F5228A2519DA2C005E8B31 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				86F5228B2519DA44005E8B31 /* DataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86D4DCF02500ECDB001C7E76 /* QR Code Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D4DD052500ECE0001C7E76 /* Build configuration list for PBXNativeTarget "QR Code Reader" */;
+			buildPhases = (
+				764CA3A84444186FCEC592D8 /* [CP] Check Pods Manifest.lock */,
+				86D4DCED2500ECDB001C7E76 /* Sources */,
+				86D4DCEE2500ECDB001C7E76 /* Frameworks */,
+				86D4DCEF2500ECDB001C7E76 /* Resources */,
+				2CC7B89A72EA8D5B8E7A3A94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QR Code Reader";
+			productName = "QR Code Reader";
+			productReference = 86D4DCF12500ECDB001C7E76 /* QR Code Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86D4DCE92500ECDB001C7E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Surakan Kasurong";
+				TargetAttributes = {
+					86D4DCF02500ECDB001C7E76 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 86D4DCEC2500ECDB001C7E76 /* Build configuration list for PBXProject "QR Code Reader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86D4DCE82500ECDA001C7E76;
+			productRefGroup = 86D4DCF22500ECDB001C7E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86D4DCF02500ECDB001C7E76 /* QR Code Reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86D4DCEF2500ECDB001C7E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D4DD222500FF50001C7E76 /* NunitoSans-ExtraBold.ttf in Resources */,
+				86D4DD1F2500FC56001C7E76 /* NunitoSans-Black.ttf in Resources */,
+				86D4DD012500ECE0001C7E76 /* LaunchScreen.storyboard in Resources */,
+				86D4DD302504D2AB001C7E76 /* NunitoSans-Bold.ttf in Resources */,
+				86D4DCFE2500ECE0001C7E76 /* Assets.xcassets in Resources */,
+				86D4DD202500FC56001C7E76 /* NunitoSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC7B89A72EA8D5B8E7A3A94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QR Code Reader/Pods-QR Code Reader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QR Code Reader/Pods-QR Code Reader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QR Code Reader/Pods-QR Code Reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		764CA3A84444186FCEC592D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR Code Reader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86D4DCED2500ECDB001C7E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D4DCF52500ECDB001C7E76 /* AppDelegate.swift in Sources */,
+				86F52287250F6A7E005E8B31 /* SQLiteFunction.swift in Sources */,
+				86D4DD2A2504CB1E001C7E76 /* CreateController.swift in Sources */,
+				86F5228C2519DA44005E8B31 /* DataSource.swift in Sources */,
+				86D4DD3E25066933001C7E76 /* CreateWiFiController.swift in Sources */,
+				86A3AE3B2645BFA900C10056 /* PrivacyTermsController.swift in Sources */,
+				86438E232507F464001931E4 /* DetailWifiController.swift in Sources */,
+				86D4DCF72500ECDB001C7E76 /* SceneDelegate.swift in Sources */,
+				86D4DD102500F064001C7E76 /* Extension_Font.swift in Sources */,
+				86D4DD142500F064001C7E76 /* Extension_Color.swift in Sources */,
+				86438E272507F7B5001931E4 /* DetailBarcodeController.swift in Sources */,
+				86438E252507F6AE001931E4 /* DetailTextController.swift in Sources */,
+				86D4DD132500F064001C7E76 /* Extension_UIAlert.swift in Sources */,
+				86D4DD282504CAD3001C7E76 /* ScannerPageController.swift in Sources */,
+				86F5228E251CA6C4005E8B31 /* test.swift in Sources */,
+				86D4DD3725051027001C7E76 /* HistoryController.swift in Sources */,
+				86D4DD2E2504CB72001C7E76 /* UpgradeController.swift in Sources */,
+				86D4DD3525050FC2001C7E76 /* HistoryCell.swift in Sources */,
+				86D4DD112500F064001C7E76 /* Extension_ConstraintUI.swift in Sources */,
+				86D4DD322504E2CF001C7E76 /* PresentPage.swift in Sources */,
+				86D4DD092500EFC4001C7E76 /* PreviewPageController.swift in Sources */,
+				86D4DD262504C97C001C7E76 /* TabbarMainController.swift in Sources */,
+				868A45C92506BBB8009651FC /* Extension.swift in Sources */,
+				86D4DD192500F440001C7E76 /* PreviewPageCell.swift in Sources */,
+				86D4DD3C25065FD7001C7E76 /* CreateWebSiteController.swift in Sources */,
+				86F522892517E0A8005E8B31 /* Class.swift in Sources */,
+				86D4DD3A25065820001C7E76 /* CreateCell.swift in Sources */,
+				86D4DD4025066943001C7E76 /* CreateTextController.swift in Sources */,
+				86438E212507E733001931E4 /* DetailWebController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86D4DCFF2500ECE0001C7E76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86D4DD002500ECE0001C7E76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86D4DD032500ECE0001C7E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86D4DD042500ECE0001C7E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86D4DD062500ECE0001C7E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F204BBA152DE5355347A6C /* Pods-QR Code Reader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4U94LU9QD;
+				INFOPLIST_FILE = "QR Code Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SQLite\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIDropDown\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wisdomchain.QR-Code-Reader-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		86D4DD072500ECE0001C7E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE5967162422AAEDC43769C /* Pods-QR Code Reader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4U94LU9QD;
+				INFOPLIST_FILE = "QR Code Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SQLite\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIDropDown\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wisdomchain.QR-Code-Reader-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86D4DCEC2500ECDB001C7E76 /* Build configuration list for PBXProject "QR Code Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D4DD032500ECE0001C7E76 /* Debug */,
+				86D4DD042500ECE0001C7E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D4DD052500ECE0001C7E76 /* Build configuration list for PBXNativeTarget "QR Code Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D4DD062500ECE0001C7E76 /* Debug */,
+				86D4DD072500ECE0001C7E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86D4DCE92500ECDB001C7E76 /* Project object */;
+}
